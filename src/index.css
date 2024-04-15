@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+
+.navbar {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.navbar h1 {
+  color: #f1356d;
+}
+
+.navbar .links {
+  margin-left: auto;
+}
+
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+
+.navbar a:hover {
+  color: #f1356d;
+}
+
+.home {
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+}
+
+.home-content {
+  max-width: 53%;
+  margin-left: 35px;
+}
+
+.home-img img {
+  width: 400px;
+  height: auto;
+  padding-left: 120px;
+  border-radius: 25px;
+}
+
+.home h1,h2 {
+  padding-bottom: 50px;
+  margin-bottom: 70px;
+}
+
+.home h1 {
+  color: #f1356d;
+  font-size: 55px;
+}
+
+.home h2 {
+  font-size: 40px;
+}
+
+.home-content a {
+  background: #f1356d;
+  font-size: 25px;
+  color: #ffffff;
+  margin-right: 20px;
+  margin-top: 20px;
+  padding: 10px;
+  border-width: 0;
+  text-decoration: none;
+}
+
+.register h1 {
+  color: #f1356d;
+  margin-bottom: 10px;
+}
+
+.register form {
+  position: absolute;
+  z-index: 10;
+  width: 400px;
+  top: 150px;
+  right: 450px;
+  border: 1px solid #f2f2f2;
+  background-color: #ffffff;
+  padding: 50px;
+}
+
+.register-background {
+  position: relative;
+  z-index: -1;
+  background-color: #f2f2f2;
+  width: 1450px;
+  height: 695px;
+}
+
+.register label {
+  display: block;
+  margin-bottom: 3px;
+  color: #808080;
+}
+
+.register .register-input {
+  margin-bottom: 15px;
+  border: 1px solid #000000;
+  width: 100%;
+  height: 30px;
+}
+
+.register .register-upload {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.signin h1 {
+  color: #f1356d;
+  margin-bottom: 10px;
+}
+
+.signin form {
+  position: absolute;
+  z-index: 1;
+  width: 400px;
+  top: 150px;
+  right: 450px;
+  border: 1px solid #f2f2f2;
+  background-color: #ffffff;
+  padding: 50px;
+}
+
+.signin-background {
+  position: relative;
+  z-index: -1;
+  background-color: #f2f2f2;
+  width: 1450px;
+  height: 695px;
+}
+
+.signin label {
+  display: block;
+  margin-bottom: 3px;
+  color: #808080;
+}
+
+.signin .signin-input {
+  margin-bottom: 15px;
+  border: 1px solid #000000;
+  width: 100%;
+  height: 30px;
+}
+
+.signin .signin-upload {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.submit {
+  background: #f1356d;
+  font-size: 20px;
+  color: #ffffff;
+  margin-right: 20px;
+  margin-top: 20px;
+  padding: 5px;
+  border-width: 0;
+  text-decoration: none;
+  width: 101%;
+}
