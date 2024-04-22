@@ -39,7 +39,7 @@
   position: relative;
   display: flex;
   flex-direction: row;
-  background-image: url("https://i.ibb.co/GF5hm66/Screenshot-2024-04-16-at-6-13-58-PM-3.png");
+  background-image: url("/public/home-image.png"); 
   background-repeat: no-repeat;
   background-size: 1600px 750px;
 }
@@ -81,6 +81,7 @@
   padding: 10px;
   border: 2px solid #ffffff;
   text-decoration: none;
+  transition: background 0.3s;
 }
 
 .home-content a:hover {
