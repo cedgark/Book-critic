@@ -22,7 +22,7 @@ const Home = () => {
       </div>
       <div className="panorama">
       <ReactPannellum
-          style={{width: '1440px', height: '782px', right: '40px', bottom: '110px'}} /* 41*/
+          style={{width: '1440px', height: '790px', right: '40px', bottom: '110px'}} /* 41*/
           id="1"
           sceneId="firstScene"
           imageSource="library-interior-w9oempie.jpeg"
